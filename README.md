@@ -1,3 +1,4 @@
 # htmlecss
  html e css curso
-oi
+
+Estou aprendendo a criar sites e agora vou gerenciar meus repositorios!
