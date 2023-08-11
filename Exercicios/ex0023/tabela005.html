@@ -25,8 +25,20 @@
             padding: 8px;
         }
 
-        tr.destaque{
+        col.cnome{
             background-color: chartreuse;
+        }
+
+        .destaque{
+            background-color: chartreuse;
+        }
+
+        .amarelo{
+            background-color: yellow;
+        }
+
+        .vermelho{
+            background-color: red;
         }
     </style>
 </head>
@@ -34,6 +46,13 @@
     <h1>Exercicio de Tabelas</h1>
 
     <table>
+        <colgroup>
+            <col class="amarelo">
+            <col class="vermelho">
+            <col class="amarelo">
+            <col class="vermelho">
+        </colgroup>
+
         <caption>Cadastro</caption>
 
         <tr>
@@ -57,7 +76,7 @@
             <td>Programador</td>
         </tr>
 
-        <tr  class="destaque">
+        <tr>
             <td>Gustavo</td>
             <td>M</td>
             <td>42</td>
@@ -71,7 +90,7 @@
             <td>Vendedor</td>
         </tr>
 
-        <tr  class="destaque">
+        <tr>
             <td>Maria</td>
             <td>F</td>
             <td>39</td>
